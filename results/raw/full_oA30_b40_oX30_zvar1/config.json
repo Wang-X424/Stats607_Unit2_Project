@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "z_dim_true": 8,
+  "z_var": 1.0,
+  "x_hidden_dim": 32,
+  "props": [
+    30,
+    40,
+    30
+  ],
+  "n_levels": [
+    100,
+    400,
+    700,
+    1100,
+    1500
+  ],
+  "p_levels": [
+    100,
+    400,
+    700,
+    1100,
+    1500
+  ],
+  "alpha_levels": [
+    -8,
+    -6,
+    -4,
+    -2,
+    0
+  ],
+  "fixed_alpha": -6,
+  "fixed_n": 700,
+  "fixed_p": 700,
+  "n_reps": 20,
+  "z_dim_fit": 8,
+  "h_dim_fit": 128,
+  "lr": 0.001,
+  "lr_min": 1e-05,
+  "l2": 0.01,
+  "self_weight": 1.0,
+  "n_iter": 1200,
+  "log_every": 50,
+  "mc_samples": 50,
+  "mc_every_log": false,
+  "min_exp_deg": 1.0,
+  "provenance": "imported from the legacy single-file script run on the Great Lakes cluster; same data seeds, torch not seeded"
+}
